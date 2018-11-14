@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<script src="jvChiringuito.js"></script>-->
+<meta charset="utf-8">
+<title>
+intro
+</title>
+<style>
+.nombre{
+	font-size:60px;
+	}
+.thumb{
+	width:200px;
+	transition:300ms all ease;
+	visibility: hidden;
+
+	}
+.grande{
+	width: 200px;
+	visibility: visible;
+	}
+</style>
+</head>
+<body>
+<h1 class = "titulo">CHIRINGUITO APP</h1>
+<div class="nombre">
+<script>
+var nombre1 = "álvaro"
+	nombre2 = "alvaro"
+	nombre3 = "pichi"
+	nombre4 = "rodrigo"
+	nombre5 = "marcos"
+	nombre6 = "juanjo"
+	nombre7 = "calamar"
+	nombre8 = "jose"
+	nombre9 = "josé"
+	nombre10 = "murillo"
+	nombre11 = "tasa"
+	nombre12 = "hector"
+	nombre13 = "héctor"
+	nombre14 = "samuel"
+	nombre15 = "samu"
+	nombre16 = "yago"
+	nombre17 = "santiago"
+	nombre18 = "copón"
+	nombre19 = "copon"
+	nombre20 = "sergio"
+	nombre21 = "koletas"
+	nombre22 = "rafa"
+	nombre23 = "rafael"
+	nombre24 = "bernar"
+	nombre25 = "bernardo"
+	nombre26 = "coletas"
+	nombre27 = "amador"
+	nombre28 = "pandoro"
+	nombre = prompt("ingresa tu nombre en minúsculas");
+	
+	switch(nombre){
+		case nombre1:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre2:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre5:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre6:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre7:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre12:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre13:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre18:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre19:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre20:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre27:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre28:
+		document.write("Gran madridista y buena gente" + " " + nombre);
+		break;
+		case nombre26:
+		document.write("Eres un farsante de pastel y lo sabes"+ " " + nombre);
+		break;
+		case nombre23:
+		document.write("Eres un farsante de pastel y lo sabes"+ " " + nombre);
+		break;
+		case nombre22:
+		document.write("Eres un farsante de pastel y lo sabes" + " " + nombre);
+		break;
+		case nombre21:
+		document.write("Eres un farsante de pastel y lo sabes"+ " " + nombre);
+		break;
+		case nombre10:
+		document.write("Eres un farsante de pastel y lo sabes" + " " + nombre);
+		break;
+		case nombre9:
+		document.write("Eres un farsante de pastel y lo sabes" + " " + nombre);
+		break;
+		case nombre8:
+		document.write("Eres un farsante de pastel y lo sabes" + " " + nombre);
+		break;
+		case nombre3:
+		document.write("Gran rayista y madridista y buena gente eres"  + " " + nombre);
+		break;
+		case nombre4:
+		document.write("Gran rayista y madridista y buena gente eres"  + " " + nombre);
+		break;
+		case nombre11:
+		document.write("Eres muy bujarras" + " " + nombre);
+		break;
+		case nombre14:
+		document.write("Farsante y patético por ese orden y lo sabes" + " " + nombre);
+		break;
+		case nombre15:
+		document.write("Farsante y patético por ese orden y lo sabes" + " " + nombre);
+		break;
+		case nombre16:
+		document.write("Eres un albaceteño cabrón y del depor además y lo sabes"  + " " + nombre);
+		break;
+		case nombre17:
+		document.write("Eres un albaceteño cabrón y del depor además y lo sabes"  + " " + nombre);
+		break;
+		case nombre24:
+		document.write("Eres manchego bien hecho, tu fallo es ,ser del atleti" + " " + nombre);
+		break;
+		case nombre25:
+		document.write("Eres manchego bien hecho, tu fallo es ,ser del atleti" + " " + nombre);
+		break;
+		
+	}
+	
+</script>
+</div>
+
+<div class="">
+	<input type = "button" value = "si eres un farsante haz click " onclick ="muestraImagen1();">
+	<img id = "thumb1" class = "thumb" src = "./caca.jpeg"  width = "50" alt= ""></img>
+
+	<input type = "button" value = "si eres madridista haz click " onclick ="muestraImagen2();">
+	<img id = "thumb2" class = "thumb" src = "./cEuropa.jpeg" width = "50" alt= ""></img>
+
+	<input type = "button" value = "si eres patético haz click " onclick ="muestraImagen3();">
+	<img id = "thumb3" class = "thumb" src = "./juanfran.jpeg" width = "50" alt= ""></img>
+
+<script>
+var muestraImagen1 = function(){
+	var thumb1 = document.getElementById("thumb1");
+	if(thumb1.className == "thumb"){
+	thumb1.className = "thumb grande";
+	
+	}else{
+	thumb1.className = "thumb";
+	}
+	
+}
+var muestraImagen3 = function(){
+	var thumb3 = document.getElementById("thumb3");
+	if(thumb3.className == "thumb"){
+	thumb3.className = "thumb grande";
+	
+	}else{
+	thumb3.className = "thumb";
+	}
+	
+}
+var muestraImagen2 = function(){
+	var thumb2 = document.getElementById("thumb2");
+	if(thumb2.className == "thumb"){
+	thumb2.className = "thumb grande";
+	}else{
+	thumb2.className = "thumb";
+	}
+	}
+</script>
+</div>
+</body>
+</html>
